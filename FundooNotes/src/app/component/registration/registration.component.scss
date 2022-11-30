@@ -1,0 +1,90 @@
+:root{
+    color-scheme: light;
+}
+body{
+    color:#202124;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    overflow-y: hidden;
+   
+}
+.Container{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    border-radius: 8px;    
+
+    position:absolute;
+    width:760px;
+    padding-left: 40px;
+    padding-top:48px;
+    padding-right: 40px;
+    padding-bottom: 36px;
+    margin-left: 28%;
+    margin-top: 2%;
+    
+
+}
+.a-class{
+    color:#1a73e8;
+    font-weight: 500;
+    margin-top:28px;
+    font-size: 16px;
+    padding-top: 28px;
+}
+
+.firstname{
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    width:180px;
+}
+.username{
+    margin-bottom: 35px;
+}
+
+.hint{    
+        font-size: 13px;   
+}
+
+
+.password-details{
+    margin-top:30px;
+  
+}
+.password,.confirmPassword
+{
+    padding-bottom : 0px;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.image-content{
+    margin: 72px,4px,0 ;
+    text-align: right;
+}
+img{
+   
+    height: 244px;
+    width:244px;
+}
+.text{
+    font-size: 15px;
+    font-weight: 300px;
+    text-align: center;
+    box-sizing: inherit;
+}
+.submit-button{
+    padding-top: 40px;
+}
+
+
+
+.right-side{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width:280px;
+}
